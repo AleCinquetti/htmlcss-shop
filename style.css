@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.items-box {
+  margin-bottom: 10px;
+}
+
+.item {
+  display: inline-block;
+  position: relative;
+}
+
+.sconto-30 {
+  font-size: 12px;
+  background: rgb(4, 93, 8);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.sconto-5 {
+  font-size: 12px;
+  background: rgb(227, 0, 0);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.cuore {
+  color: rgb(249, 18, 4);
+  opacity: 0;
+  position: absolute;
+  bottom:7px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.item:hover .cuore {
+  opacity: 1;
+}
